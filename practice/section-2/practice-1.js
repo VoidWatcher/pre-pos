@@ -45,7 +45,6 @@ function countSameElements(collection) {
 
   //第2步
   var arrObjectCount = []; //创建一个专门放置用来统计count的对象的数组
-  
   //根据["a", "e", "h", "t", "f", "c", "g", "b", "d"]里的字母，
   //把类似于{key: 'a', count: 0}的对象写进arrObjectCount里面
   for (var i = 0; i < temporaryArray.length; i++) {
